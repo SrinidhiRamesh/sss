@@ -1,0 +1,27 @@
+<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="41.jfif"style="width:300px;height:200px"><br>
+  </div>
+  <div class="column">
+    <img src="42.jpg"style="width:300px;height:200px"><br>
+  </div>
+  <div class="column">
+    <img src="43.jfif"style="width:300px;height:200px"><br>
+  </div>
+  <div class="column">
+    <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
